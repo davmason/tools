@@ -23,4 +23,4 @@ end.parse!
 
 cmd = "#{real_build_cmd} #{options.config} #{options.arch} #{options.skip_managed} #{options.skip_native}"
 puts "Running #{cmd}"
-exec(real_build_cmd )
+exec(cmd)

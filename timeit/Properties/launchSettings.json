@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "timeit": {
-      "commandName": "Project",
-      "commandLineArgs": "ping 127.0.0.1 -n 1"
-    }
-  }
-}

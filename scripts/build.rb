@@ -24,4 +24,4 @@ end.parse!
 
 cmd = "#{real_build_cmd} -rc #{options.runtime_config} -lc #{options.libraries_config} -arch #{options.arch} -subset #{options.subset}"
 puts "Running #{cmd}"
-exec(real_build_cmd )
+exec(cmd)
