@@ -12,7 +12,7 @@ options = OpenStruct.new
 options.runtime_config = "checked"
 options.libraries_config = "release"
 options.arch = "x64"
-options.subset = "clr+libs"
+options.subset = "clr"
 
 OptionParser.new do |opt|
   opt.on("--rc=runtime_config") { |o| options.runtime_config = o }
